@@ -34,7 +34,7 @@ public class Etudiant extends Personne{
 	// ===========To string==============
 	@Override
 	public String toString() {
-		return "Etudiant [numApoge=" + numApoge + ", filiere=" + filiere + "]";
+		return "Etudiant [numApoge=" + numApoge + ", filiere=" + this.filiere.getIntitule() + "]";
 	}
 	
 	

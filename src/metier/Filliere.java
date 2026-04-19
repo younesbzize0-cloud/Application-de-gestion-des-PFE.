@@ -54,8 +54,7 @@ public class Filliere {
 	// ==========To string==========
 	@Override
 	public String toString() {
-		return "Filliere [CodeF=" + CodeF + ", intitule=" + intitule + ", dept=" + dept + ", listEtudiants="
-				+ listEtudiants + "]";
+		return "Filliere [CodeF=" + CodeF + ", intitule=" + intitule + ", dept=" + dept + "]";
 	}
 
 

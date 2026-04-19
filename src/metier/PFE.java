@@ -96,8 +96,7 @@ public class PFE implements Comparable<Object>{
 	@Override
 	public String toString() {
 		return "PFE [codePFE=" + codePFE + ", titre=" + titre + ", dateDebut=" + dateDebut + ", dateFin=" + dateFin
-				+ ", dateSoutenance=" + dateSoutenance + ", etudiant=" + etudiant + ", encadrant=" + encadrant
-				+ ", note=" + note + "]";
+				+ ", dateSoutenance=" + dateSoutenance + ", etudiant=" + etudiant + ", note=" + note + "]";
 	}
 	
 
@@ -121,7 +120,4 @@ public class PFE implements Comparable<Object>{
 		PFE pfe = (PFE)o;
 		return this.note.compareTo(pfe.note);
 	}
-
-	
-	
 }
